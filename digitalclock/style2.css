@@ -21,6 +21,18 @@ body
 
 /* styles for left container */
 
+.lef_header img {
+    position: relative;
+    top: 5px;
+    left: 50px;
+    width: 204px;
+    height: 77px;
+    /* UI Properties */
+    background: transparent url(./clock_logo/clock_logo.png) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin:30px 0px;
+}
+
 .left_container
 {
     width: 50%;
@@ -29,12 +41,6 @@ body
     /* display: inline-block; */
 }
 
-
-
-.lef_header img
-{
-    margin:30px 0px;
-}
 
 .instruction
 {
